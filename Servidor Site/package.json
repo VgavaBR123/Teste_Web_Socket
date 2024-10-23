@@ -1,16 +1,12 @@
 {
-  "name": "teste-html-com-node-red",
+  "name": "websocket-server",
   "version": "1.0.0",
-  "main": "script.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "mqtt": "^5.10.1",
-    "ws": "^8.18.0"
+    "ws": "^8.7.0",
+    "mqtt": "^4.3.7"
   }
 }
